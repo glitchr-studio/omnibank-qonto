@@ -1,0 +1,34 @@
+{
+  "transactions": [
+    {
+      "id": "3b1e7a40-1c55-4f0e-9a0a-6a2d1b9f0e03",
+      "transaction_id": "nakaya-sas-1234-1-transaction-1050",
+      "amount": 5300.0,
+      "amount_cents": 530000,
+      "side": "debit",
+      "operation_type": "transfer",
+      "currency": "EUR",
+      "label": "Lucie Martin",
+      "settled_at": "2026-09-10T08:30:00.000Z",
+      "emitted_at": "2026-09-10T08:29:41.000Z",
+      "status": "completed",
+      "note": null,
+      "reference": "SALAIRE 09/2026",
+      "category": "salary",
+      "transfer": {
+        "counterparty_account_number": "FR6010278060410002051020134",
+        "counterparty_account_number_format": "IBAN",
+        "counterparty_bank_identifier": "CMCIFR2AXXX",
+        "counterparty_bank_identifier_format": "BIC"
+      }
+    }
+  ],
+  "meta": {
+    "current_page": 2,
+    "next_page": null,
+    "prev_page": 1,
+    "total_pages": 2,
+    "total_count": 3,
+    "per_page": 2
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "transactions": [
+    {
+      "id": "3b1e7a40-1c55-4f0e-9a0a-6a2d1b9f0e01",
+      "transaction_id": "nakaya-sas-1234-1-transaction-1042",
+      "amount": 1250.0,
+      "amount_cents": 125000,
+      "settled_balance": 19682.17,
+      "settled_balance_cents": 1968217,
+      "attachment_ids": [],
+      "local_amount": 1250.0,
+      "local_amount_cents": 125000,
+      "side": "credit",
+      "operation_type": "income",
+      "currency": "EUR",
+      "local_currency": "EUR",
+      "label": "Camille Durand",
+      "settled_at": "2026-09-02T09:14:03.000Z",
+      "emitted_at": "2026-09-02T09:13:58.000Z",
+      "updated_at": "2026-09-02T09:14:05.000Z",
+      "status": "completed",
+      "note": null,
+      "reference": "Facture F-2026-042",
+      "vat_amount": null,
+      "vat_amount_cents": null,
+      "vat_rate": null,
+      "initiator_id": null,
+      "label_ids": [],
+      "attachment_lost": false,
+      "attachment_required": false,
+      "card_last_digits": null,
+      "category": "other_income",
+      "transfer": {
+        "counterparty_account_number": "FR1420041010050500013M02606",
+        "counterparty_account_number_format": "IBAN",
+        "counterparty_bank_identifier": "PSSTFRPPXXX",
+        "counterparty_bank_identifier_format": "BIC"
+      }
+    },
+    {
+      "id": "3b1e7a40-1c55-4f0e-9a0a-6a2d1b9f0e02",
+      "transaction_id": "nakaya-sas-1234-1-transaction-1043",
+      "amount": 23.4,
+      "amount_cents": 2340,
+      "side": "debit",
+      "operation_type": "card",
+      "currency": "EUR",
+      "label": "Carrefour City",
+      "settled_at": "2026-09-08T06:00:12.000Z",
+      "emitted_at": "2026-09-06T17:42:10.000Z",
+      "status": "completed",
+      "note": "Courses atelier",
+      "reference": null,
+      "card_last_digits": "4242",
+      "category": "food_and_grocery"
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "next_page": 2,
+    "prev_page": null,
+    "total_pages": 2,
+    "total_count": 3,
+    "per_page": 2
+  }
+}

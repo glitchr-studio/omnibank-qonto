@@ -1,0 +1,53 @@
+{
+  "organization": {
+    "id": "0b8a3f4e-6f5a-4f39-9a51-3c1a2e0c7d11",
+    "name": "Nakaya",
+    "slug": "nakaya-sas-1234",
+    "legal_name": "NAKAYA SAS",
+    "locale": "fr",
+    "legal_share_capital": 10000,
+    "legal_country": "FR",
+    "legal_registration_date": "2025-03-01",
+    "legal_form": "SAS",
+    "legal_address": "12 rue des Halles 75001 Paris",
+    "legal_sector": "56.10A",
+    "contract_signed_at": "2025-03-04T10:22:31.000Z",
+    "legal_number": "912345678",
+    "bank_accounts": [
+      {
+        "id": "7d3c9c4e-2b1f-4a7e-8d61-0b5f1e2a9c01",
+        "slug": "nakaya-sas-1234-bank-account-1",
+        "iban": "FR5116958000011234567890142",
+        "bic": "QNTOFRP1XXX",
+        "currency": "EUR",
+        "balance": 18432.17,
+        "balance_cents": 1843217,
+        "authorized_balance": 18102.17,
+        "authorized_balance_cents": 1810217,
+        "name": "Compte principal",
+        "updated_at": "2026-09-30T21:04:11.000Z",
+        "status": "active",
+        "main": true,
+        "is_external_account": false,
+        "account_number": "01123456789"
+      },
+      {
+        "id": "a91e8f02-55c4-4d0e-b7a3-f2c6d8e41b72",
+        "slug": "nakaya-sas-1234-bank-account-2",
+        "iban": "FR7816958000011234567890238",
+        "bic": "QNTOFRP1XXX",
+        "currency": "EUR",
+        "balance": 5000.0,
+        "balance_cents": 500000,
+        "authorized_balance": 5000.0,
+        "authorized_balance_cents": 500000,
+        "name": "Réserve TVA",
+        "updated_at": "2026-09-28T08:00:00.000Z",
+        "status": "active",
+        "main": false,
+        "is_external_account": false,
+        "account_number": "01123456790"
+      }
+    ]
+  }
+}
