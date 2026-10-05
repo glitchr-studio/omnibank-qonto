@@ -3,7 +3,6 @@
 namespace Omnibank\Qonto;
 
 use Omnibank\Config;
-use Omnibank\Exception\InvalidConfigException;
 use Omnibank\GatewayFactory;
 use Omnibank\Qonto\Action\AccountsAction;
 use Omnibank\Qonto\Action\BalancesAction;
@@ -35,7 +34,7 @@ final class QontoGatewayFactory extends GatewayFactory
             'staging_token' => null,
             'host' => null,
             'omnibank.api' => fn (Config $c) => new Api(
-                $this->http ?? (class_exists(HttpClient::class) ? HttpClient::create() : throw new InvalidConfigException('The "qonto" gateway needs an HTTP client: symfony/http-client.')),
+                $this->http ?? HttpClient::create(),
                 (string) $c['login'],
                 (string) $c['secret_key'],
                 (string) ($c['host'] ?: ($c['sandbox'] ? Api::SANDBOX_HOST : Api::HOST)),

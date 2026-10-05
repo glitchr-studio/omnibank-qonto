@@ -8,6 +8,13 @@ accounts, their balances and their settled transactions, over Qonto's Business A
 > Try it with real keys (`docker compose run --rm omnibank accounts qonto` in `glitchr/omnibank`'s
 > `docker/`) before relying on it, and drop this notice once it holds.
 
+```php
+$gateway = (new QontoGatewayFactory($http))->create(['login' => '...', 'secret_key' => '...']);   // $http: the application's HTTP client; none given, the factory makes its own
+```
+
+No framework needed: the package requires `glitchr/omnibank` and `symfony/http-client`. In a
+Symfony application, the same through the bundle's configuration:
+
 ```yaml
 omnibank:
     gateways:
